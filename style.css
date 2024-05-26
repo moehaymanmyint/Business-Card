@@ -1,0 +1,180 @@
+body {
+    background-color: #CDD1DE;
+    font-family: "Reddit Mono", monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color: #ffffff;
+}
+
+.ui-container {
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 8px #bec6df;
+}
+
+.left-container .row {
+    display: flex;
+    flex-direction: row;   
+}
+
+.left-container .contact{
+    width: 30%;
+    height: 500px;
+    border-radius: 20px 0 0 20px;
+}
+
+.left-container .top-contact{
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: #8592bd;
+    border-radius: 20px 0 0 0;
+}
+
+.left-container .bottom-contact{
+    height: 180px;
+    background-color: #8592bd;
+    border-radius: 0 0 0 20px;
+}
+
+.top-info{
+    padding: 120px 0;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+.top-info .email,
+.top-info .phone{
+    margin: 20px;
+}
+
+.top-info i,
+.top-info div{
+    margin: 5px 10px;
+}
+
+.bottom-contact{
+    padding: 5px 0;
+    font-size: 20px;
+}
+.bottom-contact h4{
+   padding: 15px 30px;
+   padding-bottom: 0;
+}
+
+.bottom-contact .icons{
+    padding-top: 0;
+    padding: 0 30px;
+}
+
+.bottom-contact .icons i{
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+}
+
+.bottom-contact .icons i:hover {
+    color: #c9cfe0;
+}
+
+.image{
+    position: static;
+}
+
+.image img{
+    position: absolute;
+    top: 20%;
+    width: 20%;
+    margin-left: -50px;
+}
+
+.right-container{
+    margin: 0;
+    color: black;
+    margin-left: 260px;
+    position: relative;
+    overflow: hidden;
+}
+
+.right-container h1{
+    font-size: 40px;
+}
+
+.right-container span{
+    margin-left: 25px;
+    color: #435db3;
+}
+
+.right-container .subtitle,
+.right-container h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-container li{
+    margin: 5px;
+    margin-left: -20px;
+}
+
+.shape1{
+    width: 120px;
+    height: 120px;
+    background-color: #8592bd;
+    position: absolute;
+    border-radius: 50%;
+    right: -20px;  
+    top: -40px; 
+}
+
+.col-3 .contact{
+    position: relative;   
+}
+
+.shape2{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(236, 230, 255);
+    position: absolute;
+    top: 170px;
+    margin-left: 220px;
+    z-index: 1;
+}
+
+.shape3 {
+    width: 75px;
+    height: 75px;
+    background-color: #8592bd;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 480px;
+    top: 65%;
+}
+
+.shape4 {
+    width: 50px;
+    height: 40px;
+    background-color: rgb(236, 230, 255);
+    position: absolute;
+    top: 66%;
+    margin-left: 270px;
+    z-index: 1;
+}
+
+.shape5 {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(236, 230, 255);
+    position: absolute;
+    top: 22%;
+    margin-left: 490px;
+    z-index: 1;
+}
+
